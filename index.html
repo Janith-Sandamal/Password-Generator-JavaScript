@@ -21,5 +21,23 @@
         <button><img src="images/generate.png" alt="generate-image"> Generate Password</button>
     </div>
     
+    <script>
+        const passwordBox = document.getElementById('password');
+        const lenght = 12;
+
+        const generatePassword = () => {
+            let password = '';
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=';
+            for (let i = 0; i < lenght; i++) {
+                password += characters.charAt(Math.floor(Math.random() * characters.length));
+            }
+            passwordBox.value = password;
+
+        }
+
+        document.querySelector('button').addEventListener('click', generatePassword);
+
+        
+    </script>
 </body>
 </html>
