@@ -2,8 +2,8 @@
 
 <h2>User Interface</h2>
 <br>
-<img src"https://user-images.githubusercontent.com/78975250/233662564-c25efc1a-e99f-4776-9075-f73f5c075760.png">
 
+![Screenshot 2023-04-21 200002](https://user-images.githubusercontent.com/78975250/233666944-6e6468df-3518-4634-800b-d9f2af5744d4.png)
 
 
 
