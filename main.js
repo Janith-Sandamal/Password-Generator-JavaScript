@@ -4,7 +4,7 @@
 
         const generatePassword = () => {
             let password = '';
-            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=';
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"@#$%^&*()_+~`|}{[]\:;?><,./-=';
             for (let i = 0; i < lenght; i++) {
                 password += characters.charAt(Math.floor(Math.random() * characters.length));
             }
