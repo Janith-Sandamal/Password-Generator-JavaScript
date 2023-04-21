@@ -40,3 +40,26 @@ body{
     font-weight: 500;
     font-size: 45px;
 }
+
+/* Style for heading span tag */
+
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+/* Css styles for the icons and imeges*/
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Styles for input field */
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
